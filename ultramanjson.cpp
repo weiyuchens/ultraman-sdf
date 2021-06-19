@@ -27,7 +27,9 @@ typedef struct {
     ultraman_type type;
 } json_value;
 
-int ultraman_json_parse(json_value* value, const char* json);
+int ultraman_json_parse(json_value* value, const char* json); // 是解析JSON函数
+
+ultraman_type ultraman_get_json_value_type(const json_value* value); // 获取json的值类型的函数
 
 int main()
 {
