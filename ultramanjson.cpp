@@ -27,7 +27,7 @@ typedef struct {
     ultraman_type type;
 } json_value;
 
-int ultraman_parse(json_value* value, const char* json);
+int ultraman_json_parse(json_value* value, const char* json);
 
 int main()
 {
